@@ -1,0 +1,238 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelNow</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">TravelNow</div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Explore The World</h1>
+        <p>Discover amazing destinations with affordable travel packages.</p>
+
+        <button class="cta-btn">Book Now</button>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700" alt="Travel">
+    </div>
+</section>
+
+<section class="search-trip">
+    <h2>Find Your Dream Destination</h2>
+
+    <input type="text" id="destination" placeholder="Destination">
+
+    <input type="date" id="travelDate">
+
+    <button id="searchBtn">Search</button>
+</section>
+
+<section class="destinations" id="destinations">
+
+    <h2>Popular Destinations</h2>
+
+    <div class="destination-container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=500"
+                 alt="Bali">
+
+            <h3>Bali</h3>
+
+            <p>
+                Experience tropical beaches and stunning sunsets.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=500"
+                 alt="Switzerland">
+
+            <h3>Switzerland</h3>
+
+            <p>
+                Explore snowy mountains and beautiful landscapes.
+            </p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=500"
+                 alt="Dubai">
+
+            <h3>Dubai</h3>
+
+            <p>
+                Discover luxury, adventure, and iconic architecture.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="packages" id="packages">
+
+    <h2>Travel Packages</h2>
+
+    <div class="package-container">
+
+        <div class="package-card">
+            <h3>Bali Special</h3>
+            <p>5 Days / 4 Nights</p>
+            <h4>₹29,999</h4>
+            <button class="package-btn">Book</button>
+        </div>
+
+        <div class="package-card">
+            <h3>Swiss Adventure</h3>
+            <p>7 Days / 6 Nights</p>
+            <h4>₹79,999</h4>
+            <button class="package-btn">Book</button>
+        </div>
+
+        <div class="package-card">
+            <h3>Dubai Luxury</h3>
+            <p>4 Days / 3 Nights</p>
+            <h4>₹49,999</h4>
+            <button class="package-btn">Book</button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat">
+        <h3>5000+</h3>
+        <p>Happy Travelers</p>
+    </div>
+
+    <div class="stat">
+        <h3>120+</h3>
+        <p>Destinations</p>
+    </div>
+
+    <div class="stat">
+        <h3>10+</h3>
+        <p>Years Experience</p>
+    </div>
+
+</section>
+
+<section class="testimonials">
+
+    <h2>Customer Reviews</h2>
+
+    <div class="review-container">
+
+        <div class="review">
+            <p>"Amazing experience!"</p>
+            <h4>- Rahul</h4>
+        </div>
+
+        <div class="review">
+            <p>"Best travel service."</p>
+            <h4>- Priya</h4>
+        </div>
+
+        <div class="review">
+            <p>"Highly recommended."</p>
+            <h4>- Aman</h4>
+        </div>
+
+    </div>
+
+</section>
+<section class="gallery">
+
+    <h2>Travel Gallery</h2>
+
+    <div class="gallery-container">
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600"
+                 alt="Beach">
+
+            <figcaption>Tropical Beaches</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
+                 alt="Mountains">
+
+            <figcaption>Mountain Adventures</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600"
+                 alt="City">
+
+            <figcaption>Modern City Tours</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600"
+                 alt="Nature">
+
+            <figcaption>Nature Exploration</figcaption>
+        </figure>
+
+    </div>
+
+</section>
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+
+        <input type="text"
+               placeholder="Your Name"
+               required>
+
+        <input type="email"
+               placeholder="Your Email"
+               required>
+
+        <textarea
+          rows="5"
+          placeholder="Your Message">
+        </textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+<button id="topBtn">↑</button>
+
+<footer>
+    <p>© 2026 TravelNow</p>
+</footer>
+
+<script src="script.js"></script>
+<button id="topBtn">↑</button>
+</body>
+</html>
